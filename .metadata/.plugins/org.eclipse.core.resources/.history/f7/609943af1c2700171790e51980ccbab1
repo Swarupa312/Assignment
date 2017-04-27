@@ -1,0 +1,11 @@
+
+public class Student 
+{
+	protected String name;
+	public void accept()
+	{
+		name="ABC";
+		
+	}
+}
+

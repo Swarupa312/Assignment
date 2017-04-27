@@ -1,0 +1,34 @@
+package assignment;
+
+import java.util.Scanner;
+
+//>=5000 and <6000 - 12.5% ,>=6000 and <10000 - 14.2% and >=10000 will be 16% and less than 5000 there should not be any disocunt
+public class discount 
+{
+	int pv;
+ 	public void accept()
+ 	{
+ 		Scanner sr=new Scanner(System.in);
+ 		System.out.println("enetr purchase value");
+ 		y=sr.nextInt();
+ 	}
+ 	public void display()
+ 	{
+ 		if (y%4==0)
+ 			System.out.println(y+ " is a leap year");
+ 		else
+ 			System.out.println(y+"is not a leap year");
+ 	}
+}
+
+class leapmain
+{
+	public static void main(String args[])
+	{
+		leap l=new leap();
+		l.accept();
+		l.display();
+		
+	}
+
+}

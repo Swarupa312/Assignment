@@ -1,0 +1,27 @@
+package casting;
+
+public class Appliacnt 
+{
+
+	public void display()
+	{
+		System.out.println("start");
+	}
+}
+
+ class employee extends Appliacnt
+{
+	public void display()
+	{
+		System.out.println("start");
+	}
+	public void salary()
+	{
+		System.out.println("salary is:10000");
+	}
+}
+public class Applicant
+{
+	      	
+}
+

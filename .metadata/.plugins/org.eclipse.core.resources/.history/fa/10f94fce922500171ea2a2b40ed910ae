@@ -1,0 +1,18 @@
+import java.util.*;
+public class EmpMain
+{
+	
+	public static void main(String args[])
+	{
+		int a;
+		String name;
+	Scanner scr=new Scanner(System.in);
+	System.out.println("Enetr the employee details ");
+	System.out.println("Enetr the employee no ");
+	a=scr.nextInt();
+	System.out.println("Enetr the employee name ");
+	name=scr.next();
+	Employee e=new Employee(a,name);
+	e.display();
+	}
+}

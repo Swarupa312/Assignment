@@ -1,0 +1,25 @@
+import java.util.*;
+public class EmpMain
+{
+	
+	public static void main(String args[])
+	{
+		int a,salary;
+		String name;
+	Scanner scr=new Scanner(System.in);
+	System.out.println("Enetr the employee details ");
+	System.out.println("Enetr the employee no ");
+	a=scr.nextInt();
+	System.out.println("Enetr the employee name ");
+	name=scr.next();
+	Manager m=(Manager)new Employee(a,name);
+	m.display();
+	System.out.println("Enetr the employee salary ");
+	salary=scr.nextInt();
+	Manager m1=new Manager(a,name,salary);
+	m1.calculate();
+
+	
+	
+	}
+}

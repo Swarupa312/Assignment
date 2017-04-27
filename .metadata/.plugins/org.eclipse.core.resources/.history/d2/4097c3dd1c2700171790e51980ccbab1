@@ -1,0 +1,11 @@
+
+public class Student 
+{
+	 String name;
+	public void accept()
+	{
+		name="ABC";
+		
+	}
+}
+

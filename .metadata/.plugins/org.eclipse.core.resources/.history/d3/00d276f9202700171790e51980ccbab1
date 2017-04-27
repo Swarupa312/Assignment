@@ -1,0 +1,15 @@
+
+public class conversion 
+{
+	int id;
+	String name;
+	public conversion(int n,String name1)
+	{
+	id=n;
+	name=name1;
+	}
+	public String toString()
+	{
+		return id +"& " +name;
+	}
+}

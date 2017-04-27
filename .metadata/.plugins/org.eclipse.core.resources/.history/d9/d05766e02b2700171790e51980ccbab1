@@ -1,0 +1,12 @@
+package assignment;
+import java.util.Scanner;
+public class vowel
+{
+	 String c;
+ 	public void accept()
+ 	{
+ 		Scanner sr=new Scanner(System.in);
+ 		System.out.println("enetr character");
+ 		c=sr.next();
+ 	}
+}

@@ -1,0 +1,24 @@
+package casting;
+
+public class person 
+{
+
+	public void display()
+	{
+		System.out.println("start");
+	}
+}
+
+class employee extends person
+{
+	public void display()
+	{
+		System.out.println("start");
+	}
+	public void salary()
+	{
+		System.out.println("salary is:10000");
+	}
+}
+
+

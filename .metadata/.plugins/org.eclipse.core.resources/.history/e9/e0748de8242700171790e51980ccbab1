@@ -1,0 +1,30 @@
+
+public class conversion 
+{
+	int id;
+	String name;
+	public conversion(int n,String name1)
+	{
+	id=n;
+	name=name1;
+	}
+	public String toString()
+	{
+		
+		return id +" & " +name;
+	}
+	
+}
+class main1 {
+	public static void main(String args[])
+	{
+		int no;
+		String str="abc";
+		String str1=new String("abc");
+		conversion c1=new conversion(1,"abvc");
+		conversion c2=new conversion(1,"abvc");
+		System.out.println(c1);
+		System.out.println(str1==str);
+		System.out.println(str1.equals(str));
+	}
+}

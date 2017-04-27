@@ -1,0 +1,9 @@
+
+public class main1 {
+	public static void main(String args[])
+	{
+		conversion c1=new conversion(1,"abvc");
+		System.out.println(c1);
+		
+	}
+}
